@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>createMemberForm</title>
+
+</head>
+<body>
+<div class="container">
+    <form action="/members/new" method="post"> <!--MemberController의 Postmapping으로 간다. form은 post 전송을 위해서 반드시 필요하다.-->
+        <div class="form-group">
+            <label>이름:</label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="text"  name="name" placeholder="이름을 입력하세요"> <br/><br/>
+            <label>내용입력:</label>
+            <textarea name="content" placeholder="내용을 입력하세요" ></textarea>
+        </div>
+        <button type="submit">등록</button>
+    </form>
+</div>
+</body>
+</html>

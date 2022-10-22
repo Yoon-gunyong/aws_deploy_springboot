@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://www.thymleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<tr>
+    <th>번호</th>
+    <th>이름</th>
+    <th>상세내용</th>
+</tr>
+<p></p>
+<tr>
+    <td th:text="${member.id}"></td>
+    <td th:text="${member.name}"></td>
+    <td th:text="${member.content}"></td>
+
+</tr>
+</body>
+</html>
